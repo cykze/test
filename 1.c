@@ -2,9 +2,12 @@
 
 int main()
 {
-	int hej = 120;
+	int hej1=34,hej2=35;
 
-	printf("Hej: %d\n", hej);
+	scanf("%d", &hej1);
+	scanf("%d", &hej2);
+
+	printf("Hej: %d\n", hej1);
 
 	return 0;
 }
