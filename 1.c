@@ -2,7 +2,9 @@
 
 int main()
 {
-	unsigned char hej;
+	unsigned char hej = 120;
+
+	printf("Hej: %d\n", hej);
 
 	return 0;
 }
